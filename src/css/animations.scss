@@ -1,0 +1,65 @@
+@keyframes orbit-earth {
+  0% {
+    transform: rotate(0deg);
+    width: 100%;
+  }
+
+  46% { width: 147%; }
+
+  47% { width: 148%; }
+
+  48% { width: 149%; }
+
+  50% { width: 150%; }
+
+  52% { width: 149%; }
+
+  53% { width: 148%; }
+
+  54% { width: 147%; }
+
+  100% {
+    transform: rotate(360deg);
+    width: 100%;
+  }
+}
+
+@keyframes orbit-mars {
+  0% {
+    transform: rotate(0deg);
+    width: 100%;
+  }
+
+  25% { width: 150%; }
+
+  46% { width: 177%; }
+
+  47% { width: 178%; }
+
+  48% { width: 179%; }
+
+  50% { width: 180%; }
+
+  52% { width: 179%; }
+
+  53% { width: 178%; }
+
+  54% { width: 177%; }
+
+  75% { width: 150%; }
+
+  100% {
+    transform: rotate(360deg);
+    width: 100%;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
