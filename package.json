@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "author": "Jamie Rolfs",
   "description": "Futuristic logo unveiling",
+  "repository": "https://github.com/jrolfs/ot-halloween-logo.git",
   "scripts": {
     "start": "gulp serve"
   },
