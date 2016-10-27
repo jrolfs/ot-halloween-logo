@@ -1,6 +1,8 @@
 {
   "name": "ot-halloween-logo",
   "version": "0.0.1",
+  "author": "Jamie Rolfs",
+  "description": "Futuristic logo unveiling",
   "scripts": {
     "start": "gulp serve"
   },
@@ -26,6 +28,4 @@
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.7.0"
   },
-  "author": "Jamie Rolfs",
-  "description": "Futuristic logo unveiling"
 }
