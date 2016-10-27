@@ -94,7 +94,7 @@ gulp.task('browserify', () => bundle());
 
 gulp.task('clean', () => del(['build/**/*']));
 
-gulp.task('serve', gulp.series('html', 'img', 'browserify', () => {
+gulp.task('serve', gulp.series('html', 'sass', 'img', 'browserify', () => {
   browserSync({
     server: build,
     browser: 'google chrome canary'
