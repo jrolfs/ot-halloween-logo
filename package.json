@@ -28,4 +28,8 @@
     "vinyl-source-stream": "^1.1.0",
     "watchify": "^3.7.0"
   },
+  "engines": {
+    "node": "^7.0.0",
+    "npm": "^4.0.0"
+  }
 }
