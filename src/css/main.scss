@@ -11,19 +11,18 @@ main {
   height: 100%;
   justify-content: center;
   position: absolute;
-  width: 100%;
-  background: #fff;
   transition: background ease-in-out 1s;
+  width: 100%;
 
   .text {
     margin-left: -11em;
     padding-right: 4em;
     transition: width ease-in-out 2s;
-    width: 0em;
+    width: 0;
 
     svg {
-      width: 100%;
       height: 100%;
+      width: 100%;
     }
   }
 
@@ -36,7 +35,6 @@ main {
   }
 
   &.logo-complete {
-    // background: #000;
 
     .text {
       width: 60em;
@@ -80,9 +78,9 @@ main {
   .dot-orbit {
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-    transform-origin: top;
     position: absolute;
     top: 50%;
+    transform-origin: top;
     transition: width 1s ease-in-out;
 
     &.planet .dot img {
@@ -92,23 +90,22 @@ main {
     &.mars {
       animation-duration: 3.5s;
       margin: -2em 1em 0;
-      width: 110%;
-      transition: all 1s ease-in-out;
       opacity: 0;
+      transition: margin 1s ease-in-out;
+      width: 110%;
 
       .dot {
         height: 4em;
         width: 4em;
-        transition: all;
 
         img {
           animation-duration: 1.5s;
         }
 
         path {
-          transition: stroke-width ease-in-out 1s;
-          stroke: #fff;
+          stroke: $white;
           stroke-width: 0;
+          transition: stroke-width ease-in-out 1s;
         }
       }
 
